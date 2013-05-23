@@ -10,16 +10,22 @@ How to Demo:
 2. open file Bricks_files/default.js
 3. change this code:
 
+
 	Event(leftOverlay, "mouseup", function() { if(Game.canStart()) { Balls.release(Player.ONE); } }, false);
-	Event(rightOverlay, "mouseup", function() { if(Game.canStart()) { Balls.release(Player.TWO); } }, false);	
+	
+	Event(rightOverlay, "mouseup", function() { if(Game.canStart()) { Balls.release(Player.TWO); } }, false);
+	
 	Event(leftOverlay, "mousemove", Game.movePaddle, false);
+	
 	Event(rightOverlay, "mousemove", Game.movePaddle, false);
 		
 to this:
+
 	Event(leftOverlay, "MSPointerUp", function() { if(Game.canStart()) { Balls.release(Player.ONE); } }, false);
 	Event(rightOverlay, "MSPointerUp", function() { if(Game.canStart()) { Balls.release(Player.TWO); } }, false);
 	Event(leftOverlay, "MSPointerMove", Game.movePaddle, false);
 	Event(rightOverlay, "MSPointerMove", Game.movePaddle, false);
+
 
 4. refresh app, show multitouch support, and support for multiple input types at same time.
 
