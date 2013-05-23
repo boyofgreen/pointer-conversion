@@ -33,5 +33,7 @@ to this:
 
 see the demo in action: http://channel9.msdn.com/posts/Easy-Multi-touch-Web-Apps-Upgrade-From-Mouse-to-Pointer-Events 
 
+link to spec: http://www.w3.org/TR/pointerevents/
+
 origional code:  ietestdrive.com
 demo by: Jeff Burtoft (@boyofgreen)
