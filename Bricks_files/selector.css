@@ -1,0 +1,18 @@
+#levelSelectorDock {
+	left: 0px; top: 0px; width: 100%; position: absolute; z-index: 3000;
+}
+#levelSelector {
+	padding: 5px 0px 0px 5px; border-radius: 3px; border: 1px solid rgb(0, 0, 0); left: 270px; top: 40px; width: 825px; position: absolute; z-index: 3000; background-color: rgb(192, 192, 192); -ms-border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+#levelMiniSelector {
+	margin: auto; padding: 5px; border-radius: 3px; top: 0px; width: 85px; text-align: center; color: rgb(0, 0, 0); border-right-color: rgb(192, 192, 192); border-bottom-color: rgb(192, 192, 192); border-left-color: rgb(192, 192, 192); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; position: relative; z-index: 3000; cursor: pointer; background-color: rgba(255, 255, 255, 0.4); -ms-border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+#levelSelector h1 {
+	color: rgb(0, 0, 0); font-weight: bold; margin-top: 0px; margin-bottom: 5px;
+}
+.gameSelectorLevel {
+	height: 107px; margin-right: 5px; margin-bottom: 2px; border-bottom-color: rgb(192, 192, 192); border-bottom-width: 3px; border-bottom-style: solid; float: left; cursor: pointer;
+}
+.gameSelectorLevel:hover {
+	border-bottom-color: rgb(153, 153, 255); border-bottom-width: 3px; border-bottom-style: solid;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <!-- Copyright © Microsoft Corporation. All Rights Reserved. -->
+        <!-- Demo Author: Tobin Titus, Microsoft Corporation -->	
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=500, initial-scale=1, maximum-scale=1, minimum-scale=1,user-scalable=no">
+		<meta name="description" content="Brick Breaker TestDrive Demo Game, Performance and Touch benchmark" />
+		<meta name="t_omni_demopage" content="1" />
+		<title>Brick Breaker</title>
+		<link rel="shortcut icon" href="../../Includes/Image/FavIcon.ico" />
+		<link rel="stylesheet" type="text/css" media="all" href="Bricks_files/dialog.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="Bricks_files/selector.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="Bricks_files/theme.metro.css" />
+		<link rel="stylesheet" type="text/css" media="all and (min-width:1000px) and (min-height: 550px)" href="Bricks_files/Demo.css" />
+		<link rel="stylesheet" type="text/css" media="all and (max-width:999px)" href="Bricks_files/TooSmall.css" />
+		<link rel="stylesheet" type="text/css" media="all and (max-height:549px)" href="Bricks_files/TooSmall.css" />
+		<link rel="stylesheet" type="text/css" href="Bricks_files/FullScreenDemoTemplate.css" />
+		<script type="text/javascript" src="Bricks_files/FeatureDetection.js" data-detect=""></script>
+
+	</head>
+	<body>
+        <div id="DemoScreenreaderText">Thanks for checking out this Internet Explorer 9 & 10 demo. This demo uses common HTML5 DOM animation techniques and touch to provide an interactive game experience.</div>	
+		<div id="left" class="lane">
+			<div id="leftPaddle" class="paddle bounce"></div>
+		</div>
+		<div id="blockHolder"></div>
+		<div id="right"  class="lane">
+			<div id="rightPaddle" class="paddle bounce"></div>
+		</div>
+		<div id="center"></div>
+		
+		<div id="leftOverlay" class="left overlay"></div>
+		<div id="rightOverlay"  class="right overlay"></div>
+		
+		<div id="display">
+		</div>
+		
+		<div id="levelSelectorDock">
+		</div>
+
+		<audio id="sound_paddle">
+			<source src="Bricks_files/paddle.mp3" type="audio/mp3" />
+			<source src="Bricks_files/paddle.ogg" type="audio/ogg" />
+		</audio>
+		
+		<audio id="sound_brick">
+			<source src="Bricks_files/brick.mp3" type="audio/mp3" />
+			<source src="Bricks_files/brick.ogg" type="audio/ogg" />
+		</audio>
+		
+		<!--// In a production app, you would want to minify these scripts into one //-->
+		<!--// these scripts were left readable for sample purposes //-->
+		<script type="text/javascript" src="Bricks_files/performance.js"></script>
+		<script type="text/javascript" src="Bricks_files/errors.js"></script>		
+		<script type="text/javascript" src="Bricks_files/debugConsole.js"></script>
+		<script type="text/javascript" src="Bricks_files/keys.js"></script>
+		<script type="text/javascript" src="Bricks_files/options.js"></script>
+		<script type="text/javascript" src="Bricks_files/gamedefinitions.js"></script>
+		<script type="text/javascript" src="Bricks_files/levelselector.js"></script>
+		<script type="text/javascript" src="Bricks_files/util.js"></script>
+		<script type="text/javascript" src="Bricks_files/log.js"></script>
+		<script type="text/javascript" src="Bricks_files/extend.js"></script>
+		<script type="text/javascript" src="Bricks_files/event.js"></script>
+		<script type="text/javascript" src="Bricks_files/animation.js"></script>
+		<script type="text/javascript" src="Bricks_files/resources.js"></script>
+		<script type="text/javascript" src="Bricks_files/paddle.js"></script>
+		<script type="text/javascript" src="Bricks_files/dialog.js"></script>
+		<script type="text/javascript" src="Bricks_files/score.js"></script>
+		<script type="text/javascript" src="Bricks_files/touch.js"></script>	
+		<script type="text/javascript" src="Bricks_files/block.js"></script>
+		<script type="text/javascript" src="Bricks_files/blocks.js"></script>
+		<script type="text/javascript" src="Bricks_files/ball.js"></script>
+		<script type="text/javascript" src="Bricks_files/balls.js"></script>
+		<script type="text/javascript" src="Bricks_files/game.js"></script>
+		<script type="text/javascript" src="Bricks_files/sound.js"></script>	
+		
+		<script type="text/javascript" src="Bricks_files/default.js"></script>
+		<script type="text/javascript" src="Bricks_files/TestDriveCommon.js"></script>
+	</body>
+</html>

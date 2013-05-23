@@ -1,0 +1,15 @@
+.dialog {
+	padding: 5px; border-radius: 3px; border: 1px solid rgb(0, 0, 0); z-index: 3500; background-color: rgb(192, 192, 192); -ms-border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+.dialog h1 {
+	margin: 0px; padding: 3px; background-color: rgb(153, 153, 153);
+}
+.dialog div {
+	margin: 8px 5px; display: block;
+}
+.dialogButton {
+	margin: 5px; padding: 5px; border-radius: 3px; border: 1px solid rgb(153, 153, 153); width: 100px; height: 80px; color: rgb(192, 192, 192); background-color: rgb(153, 153, 153); -ms-border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+.dialogButton:hover {
+	color: rgb(153, 153, 153); background-color: rgb(192, 192, 192);
+}

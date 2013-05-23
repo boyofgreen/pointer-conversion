@@ -1,0 +1,66 @@
+html {
+	margin: 0px; padding: 0px; width: 100%; height: 100%; overflow: hidden; font-family: Arial; min-height: 550px; min-width: 1000px; -ms-user-select: none; -webkit-user-select: none; -moz-user-select: -moz-none; user-select: none;
+}
+body {
+	margin: 0px; padding: 0px; width: 100%; height: 100%; overflow: hidden; font-family: Arial; min-height: 550px; min-width: 1000px; -ms-user-select: none; -webkit-user-select: none; -moz-user-select: -moz-none; user-select: none;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+#display {
+	width: 100%; height: 20px; text-align: center; bottom: 0px; border-top-color: rgb(192, 192, 192); border-top-width: 1px; border-top-style: solid; display: none; position: absolute; z-index: 400; background-color: rgba(0, 0, 0, 0.5);
+}
+#blockHolder {
+	margin: auto; width: 610px; height: 400px; position: absolute;
+}
+.block {
+	margin: 0px; padding: 0px; width: 61px; height: 60px; float: left;
+}
+.noBlock {
+	margin: 0px; padding: 0px; width: 61px; height: 60px; float: left;
+}
+.lane {
+	top: 0px; width: 50px; height: 100%; position: absolute; z-index: 10;
+}
+.overlay {
+	top: 0px; width: 50%; height: 100%; position: absolute; z-index: 200; opacity: 0; -ms-touch-action: none; background-color: rgb(192, 192, 192);
+}
+#scores {
+	left: 0px; top: 0px; width: 100%; height: 100px; clear: both; position: absolute; z-index: 5;
+}
+.score {
+	width: 150px; height: 50px; font-size: 32px; margin-top: 20px; margin-right: 100px; margin-left: 100px; position: relative;
+}
+#rightScore {
+	text-align: right; float: right;
+}
+#leftScore {
+	text-align: left; float: left;
+}
+#left {
+	left: 0px;
+}
+#leftOverlay {
+	left: 0px;
+}
+#right {
+	right: 0px;
+}
+#rightOverlay {
+	right: 0px;
+}
+#warning {
+	display: none;
+}
+.supported > .debugConsole {
+	padding: 5px; border-bottom-color: rgb(192, 192, 192); border-bottom-width: 5px; border-bottom-style: solid; z-index: 5000; background-color: rgba(255, 255, 255, 0.3);
+}
+.notSupported > .debugConsole {
+	padding: 5px; border-bottom-color: rgb(192, 192, 192); border-bottom-width: 5px; border-bottom-style: solid; z-index: 5000; background-color: rgb(192, 192, 192);
+}
+.debugConsole h2 {
+	margin: 0px; padding: 0px 0px 5px;
+}
+#fps {
+	width: 100%; height: 20px; text-align: center; bottom: 0px; color: rgba(255, 255, 255, 0.8); padding-top: 10px; font-size: 10pt; position: absolute; background-color: rgba(0, 0, 0, 0.3);
+}
